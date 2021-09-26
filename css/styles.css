@@ -1,12 +1,12 @@
 
-h1, h2 { color: #b48608; font-family: 'Droid serif', serif;
-  font-size: 36px; font-weight: 400; font-style: italic;
+h1, h2 { color: #333333; font-family: Impact, Charcoal, sans-serif;
+  font-size: 45px; font-weight: 200;
   line-height: 44px; margin: 0 0 12px; text-align: center; }
 
 
-p { color: #000000; font-family: 'Tahoma', serif;
+p { color: #000000; font-family: Impact, Charcoal, sans-serif;
   font-size: 25px; font-weight: 400;
-  line-height: 24px; margin: 0 0 14px; text-align: center; }
+  line-height: 24px; margin: 0 0 14px; text-align: center;; }
 
 
 a { color: #b48608; text-decoration: none;
@@ -22,6 +22,18 @@ a:hover { color: #fff; background: #b48608; }
   height: 500px;
 
 }
+.carousel-item{
+  width: 800px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*
+.carousel-inner{
+  width: 700px;
+  height: 300px;
+
+} */
 
 .photo-grid-container {
   display: flex;
@@ -33,7 +45,7 @@ a:hover { color: #fff; background: #b48608; }
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  flex-direction: row-reverse;  /* <--- Really freaking cool! */
+  flex-direction: row;  /* <--- Really freaking cool! */
   align-items: center;
 
 }
